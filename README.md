@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/brilliant-smart/3-column-preview-card-component-with-using-bootstrap)
-- Live Site URL: [Add live site URL here](https://brilliant-smart.github.io/3-column-preview-card-component-with-using-bootstrap/)
+- Solution URL: [click here to go to the solution URL](https://github.com/brilliant-smart/3-column-preview-card-component-with-using-bootstrap)
+- Live Site URL: [Click here to see the live demo](https://brilliant-smart.github.io/3-column-preview-card-component-with-using-bootstrap/)
 
 ## My process
 bootstrap and my CSS..
