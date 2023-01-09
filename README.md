@@ -1,45 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
+# Frontend Mentor - 3-column preview card component solution
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>3-column-preview-card-component</title>
-    <link rel="shortcut icon" href="./assets/img/favicon-32x32.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Deca&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-<body>
-    <div class="container main-container">
-        <div class="row main-row">
-            <div class="col-md-4 sedan">
-                <img class="sedan-icon" src="assets/img/icon-sedans.svg">
-                <h1>SEDAN</h1>
-                <p>Chose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
-                <button class="btn btn-primary sedan-button" type="button">Learn More</button>
-            </div>
-            <div class="col-md-4 suvs">
-                <img class="suv-icon" src="assets/img/icon-suvs.svg">
-                <h1>SUVS</h1>
-                <p>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
-                <button class="btn btn-primary suv-button" type="button">Learn More</button>
-            </div>
-            <div class="col-md-4 luxury">
-                <img class="luxury-icon" src="assets/img/icon-luxury.svg">
-                <h1>LUXURY</h1>
-                <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
-                <button class="btn btn-primary luxury-button" type="button">Learn More</button>
-            </div>
-        </div>
-    </div>
-    <footer>
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Hamisu Abubakar Muhammad</a>.
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+## Table of contents
 
-</html>
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+- [Author](#author)
+
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+## Overview
+I just used bootstrap to build and save production time, and it will help others who can't build from scratch to have idea..
+I will later build everything from scratch and upload on my GitHub repo....
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/brilliant-smart/3-column-preview-card-component-with-using-bootstrap)
+- Live Site URL: [Add live site URL here](https://brilliant-smart.github.io/3-column-preview-card-component-with-using-bootstrap/)
+
+## My process
+bootstrap and my CSS..
+### Built with
+
+- Non-Semantic HTML5 markup I used div
+- CSS custom properties
+- Bootstrap framework
+- Flexbox
+- Desktop-first workflow
+
+
+### Continued development
+
+I will use plain Flexbox or grid and create the same layout and upload. just check my repository
+
+## Author
+
+- Website - [Hamisu Abubakar Muhammad](https://github.com/brilliant-smart)
+- Frontend Mentor - [@brilliant-smart](https://www.frontendmentor.io/profile/brilliant-smart)
+- Twitter - [@brilliant_smart](https://twitter.com/brilliant_smart)
