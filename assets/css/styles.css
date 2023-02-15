@@ -3,16 +3,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* height: 100vh; */
   font-size: 15px;
   background-color: hsl(0, 0%, 95%);
-  padding: 20%;
+  padding: 8% 20%;
 }
 
 .col-md-4.sedan {
   background-color: hsl(31, 77%, 52%);
   padding: 3rem;
-  border-radius: 0.625rem 0 0 0.625rem;
 }
 
 .col-md-4.suvs {
@@ -23,7 +21,6 @@ body {
 .col-md-4.luxury {
   background-color: hsl(179, 100%, 13%);
   padding: 3rem;
-  border-radius: 0 0.625rem 0.625rem 0;
 }
 
 p {
@@ -74,9 +71,33 @@ h1 {
   border-color: hsl(0, 0%, 95%);
 }
 
-@media(max-width:500px) {
+@media(min-width:768px) {
+  .col-md-4.sedan {
+    border-radius: 0.625rem 0 0 0.625rem;
+  }
+
+  .col-md-4.luxury {
+    border-radius: 0 0.625rem 0.625rem 0;
+  }
+}
+
+@media(min-width:500px) {
   body {
     padding: 0;
     margin: 2rem;
+  }
+}
+
+@media(max-width:768px) {
+  .col-md-4.sedan {
+    background-color: hsl(31, 77%, 52%);
+    padding: 3rem;
+    border-radius: 0.625rem 0.625rem 0 0;
+  }
+
+  .col-md-4.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 3rem;
+    border-radius: 0 0 0.625rem 0.625rem;
   }
 }
