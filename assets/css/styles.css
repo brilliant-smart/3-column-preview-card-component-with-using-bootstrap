@@ -81,7 +81,7 @@ h1 {
   }
 }
 
-@media(min-width:500px) {
+@media(max-width:500px) {
   body {
     padding: 0;
     margin: 2rem;
